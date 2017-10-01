@@ -9,13 +9,3 @@ read -p "Enter your git e-mail address " git_email
 
 git config --global user.name $git_name
 git config --global user.email $git_email
-
-
-read -p "Do you want to generate an SSH key (y/n)? " generate_ssh_key
-if [ "$generate_ssh_key" = "y" ]; then
-    read -p "Enter your desired label for the SSH key. Press enter to use $git_email" ssh_label
-    if [[ -z "$ssh_label" ]]; then
-        ssh_label=$git_email
-    fi
-    ssh-keygen -t rsa -b 4096 -C $ssh_label
-fi
