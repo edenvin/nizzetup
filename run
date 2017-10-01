@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+CONFIG_PATH=$(pwd)
+
+source config.sh
