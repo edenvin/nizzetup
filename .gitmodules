@@ -1,0 +1,3 @@
+[submodule "nizzetup"]
+	path = nizzetup
+	url = https://github.com/edenvin/nizzetup.git
