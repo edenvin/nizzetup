@@ -1,3 +1,29 @@
 #!/usr/bin/env bash
 
+# Command line
 brew install bash
+brew install fzf
+brew install hr
+brew install ccat
+brew install tree
+brew install terminal-notifier
+brew install vim
+
+# Security
+brew install openssl
+brew install gpg
+brew install gpg-agent
+
+# Programming
+brew install go
+brew install node
+brew install pgcli
+brew install jq
+
+# Media
+brew install imagemagick
+brew install ffmpeg
+
+# Fonts
+brew tap caskroom/fonts
+brew cask install font-source-code-pro
