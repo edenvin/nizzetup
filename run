@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-CONFIG_PATH=$(pwd)
+export CONFIG_PATH=$(pwd)
 
-source config.sh
+nizzetup/run
