@@ -2,4 +2,4 @@
 
 export CONFIG_PATH=$(pwd)
 
-nizzetup/run
+nizzetup-core/run
