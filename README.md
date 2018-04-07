@@ -1,1 +1,1 @@
-# Nizzetup config
+# Nizzetup
