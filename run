@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-export CONFIG_PATH=$(pwd)
-
 if [ -z "$(ls -A nizzetup-core)" ]; then
     curl -Lo nizzetup-core.zip https://github.com/edenvin/nizzetup-core/archive/master.zip
     unzip -j nizzetup-core.zip -d nizzetup-core
