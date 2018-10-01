@@ -5,4 +5,4 @@ if [ -z "$(ls -A nizzetup-core)" ]; then
     unzip -j nizzetup-core.zip -d nizzetup-core
 fi
 
-nizzetup-core/run
+nizzetup-core/run "$@"
