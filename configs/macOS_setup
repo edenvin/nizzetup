@@ -1,13 +1,12 @@
 #! /usr/bin/env bash
 
-read -p "Enter desired name of the machine: " display_name
+read -p "Enter desired display name of the machine: " display_name
 read -p "Enter desired system name of the machine: " system_name
 
 sudo scutil --set ComputerName $display_name
 sudo scutil --set HostName $system_name
 sudo scutil --set LocalHostName $system_name
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string $mac_os_name
-
 
 printf "Installing Xcode command line dev tools\n"
 xcode-select --install

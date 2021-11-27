@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 
 brew install git
-brew install diff-so-fancy
-
 
 read -p "Enter your git name " git_name
 read -p "Enter your git e-mail address " git_email
 
-git config --global user.name $git_name
+git config --global user.name "$git_name"
 git config --global user.email $git_email
