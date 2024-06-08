@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+# Drag windows anywhere by holding cmd+ctrl
+defaults write -g NSWindowShouldDragOnGesture YES
